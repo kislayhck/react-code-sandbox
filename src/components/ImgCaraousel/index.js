@@ -21,7 +21,7 @@ const ImageCarousel = ({ images }) => {
         <AnimatePresence>
           <motion.img
             key={currentIndex}
-            src={images[currentIndex]}
+            src={images[currentIndex].img}
             alt={`Slide ${currentIndex}`}
             className="w-full h-64 object-cover rounded-lg"
             initial={{ opacity: 0, x: 50 }}
