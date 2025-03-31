@@ -33,18 +33,12 @@ const ImageCarousel = ({ images }) => {
       </div>
 
       {/* Left Button */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
-      >
+      <button onClick={prevSlide} className="">
         ❮
       </button>
 
       {/* Right Button */}
-      <button
-        onClick={nextSlide}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
-      >
+      <button onClick={nextSlide} className="">
         ❯
       </button>
 
